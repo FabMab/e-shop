@@ -13,7 +13,7 @@ public class Product {
     
         private String id;
 	private String description;
-	private String price;
+	private double price;
       //  private byte[]imageData;
         
         public Product() {
@@ -35,10 +35,10 @@ public class Product {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public String getPrice() {
+	public double getPrice() {
 		return price;
 	}
-	public void setPrice(String price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
         

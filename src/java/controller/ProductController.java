@@ -31,7 +31,7 @@ public class ProductController {
 			Product p = new Product();
 			p.setId(rs.getString(1));
 			p.setDescription(rs.getString(2));
-			p.setPrice(rs.getString(4));
+			p.setPrice(rs.getDouble(3));
                       //  p.setImageData(imageData);
 			productList.add(p);
 		}

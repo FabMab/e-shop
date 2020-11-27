@@ -38,9 +38,9 @@
    %>
         <jsp:include page="menu.jsp"/>
        
-    <center><h3> Hardware E-Shop</h3></center>
+    <center><h3> E-Shop</h3></center>
     
-    <p><a href="myorders.jsp">My Orders </a><a href="basket_1.jsp">| Shopping Cart Quantity: <%= cart.getNumOfItems()%></a> </p>
+    <p><a href="myorders.jsp">My Orders </a><a href="basket_1.jsp">| Basket: <%= cart.getNumOfItems()%></a> </p>
     <center>    
 <table border="1" width="70%" cellpadding="3">
 	

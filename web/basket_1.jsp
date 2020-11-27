@@ -28,7 +28,7 @@
         
     <table width="300" border="1" cellspacing="0"
       cellpadding="2" border="0">
-      <caption><b>Shopping Cart Contents</b></caption>
+      <caption><b>Basket</b></caption>
       <tr>
         <th>Description</th>
         <th>Price</th>
@@ -50,6 +50,13 @@
         </tr>
         <%
       }
+       %>
+      <tr>
+          <td align="center"> Total </td>
+          <td align="center">£  </td>
+            <td align="center">  items</td>
+        </tr>
+        %<
     %>
     </table>
     </center>

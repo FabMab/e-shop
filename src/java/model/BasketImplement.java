@@ -47,7 +47,7 @@ public class BasketImplement {
 			while(rs.next()){
 				p.setId(rs.getString(1));
 				p.setDescription(rs.getString(2));
-				p.setPrice(rs.getString(4));
+				p.setPrice(rs.getDouble(3));
 			}
 		} catch(Exception e) {
 			System.out.println(e);
