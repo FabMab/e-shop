@@ -21,7 +21,7 @@
   <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       
-    <title>Shopping Cart Contents</title>
+    <title>Basket</title>
   </head>
   <body>
     <center>
@@ -59,7 +59,8 @@
         %<
     %>
     </table>
-    </center>
+      <br>
     <a href="index.jsp">Back to Catalog</a>
+    </center>
   </body>
 </html>

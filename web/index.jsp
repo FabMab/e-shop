@@ -11,23 +11,18 @@
 <%@ page import ="model.Customer"%> 
 <%@ page import ="controller.ShopController"%> 
 
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-
+<%@page language="java" contentType="text/html" pageEncoding="UTF-8"%>
 
 <jsp:useBean id="cart" scope="session" class="model.Cart"/>
 
 <!DOCTYPE html>
-<!DOCTYPE html>
-
-
-
 
  
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>HomePage</title>
+        
     </head>
     <body>
         <%
@@ -52,7 +47,7 @@
                         <%=prod.getDescription()%><input type="hidden" name="description" value=<%=prod.getDescription()%> ></br>
                         </br> 
                         <input type="hidden" name="pId" value=<%=prod.getId()%>
-                        <p><strong><center>£<%=prod.getPrice()%><center></strong><input type="hidden" name="price" value=<%=prod.getPrice()%>></p></br>
+                        <p><strong><center>Â£<%=prod.getPrice()%><center></strong><input type="hidden" name="price" value=<%=prod.getPrice()%>></p></br>
                             
                 
                         <input type="hidden" name="customerId" value="userId"/>

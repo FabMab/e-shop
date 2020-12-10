@@ -9,10 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Connection Error Page</title>
+        <title>Connection Error </title>
     </head>
     <body>
-        <h1>DB Connection could not been established!!</h1>
+        <h1>Database Connection error</h1>
          <jsp:include page="foot.jsp"/>
     </body>
 </html>

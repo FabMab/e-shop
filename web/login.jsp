@@ -17,7 +17,7 @@
       <h3>Login</h3>
         <form method="post" action="LoginServlet">
             
-            <table border="1" width="30%" cellpadding="3" >
+            <table class="table-bordered">
                 <thead>
                     <tr>
                         <th colspan="2">Login</th>
@@ -34,9 +34,11 @@
                     </tr>
                     </tbody>
             </table>
-               <input type="submit" value="Login" />
+            <br>
+               <input type="submit" class="btn btn-primary" value="Login" />
                         <p> Not Registered? <a href="register.jsp">Register Here</a></p>
                  </center>
+                    <br>
                   <jsp:include page="foot.jsp"/>
         </form>
     </body>
